@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "module": "commonjs",
+    "target": "ES2020",
+    "moduleResolution": "node",
+    "baseUrl": "."
+  },
+  "include": ["**/*.js", "types.js"],
+  "exclude": ["node_modules", "recordings"]
+}
