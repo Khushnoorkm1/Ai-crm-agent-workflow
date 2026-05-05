@@ -1,0 +1,20 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "github.copilot.chat.codeGeneration.instructions": [
+    {
+      "text": "This is AI CRM v3 — Node.js Express CRM for Indian web design agency. Uses Twilio for calls/WhatsApp, Nodemailer for email, Google Calendar for meetings, Telegram Bot for control. Database is ./data/leads.json (JSON file, no external DB). All customer-facing text must be in Hinglish. Phone numbers stored as 10 digits (no +91). Call hours: 10AM-6PM IST only. Always use db.read() fresh — never cache. Always wrap external API calls in retryService.withRetry(). See CLAUDE.md for complete architecture."
+    }
+  ],
+  "github.copilot.enable": { "*": true },
+  "editor.inlineSuggest.enabled": true,
+  "files.associations": {
+    ".env": "properties",
+    ".cursorrules": "markdown",
+    "CLAUDE.md": "markdown"
+  },
+  "editor.rulers": [100],
+  "javascript.preferences.quoteStyle": "double",
+  "editor.wordWrap": "on"
+}
